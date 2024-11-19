@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+ul.main_menu li {
+  list-style: none;
+}
+
+ul.main_menu li a {
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: all 0.8s;
+}
+ul.main_menu li a.active,
+ul.main_menu li a:hover {
+color: red;
+}
+
+header {
+  background-color: beige;
+  margin-bottom: 22px;
+}
+
+ul.main_menu {
+  display: flex;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+button{
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+  height: 50px;
+  margin-top: 50px;
+}
+.post_container{
+  max-width: 1280px;
+  width: 95%;
+  margin: 0 auto;
+}
+.post_container h1{
+  font-size: 40px;
+  text-align: center;
+}
+.post_container .post_wrap{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.post_container .post_wrap .post{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
+  width: calc(100% / 4 - 15px)
+}
+.post_container .post_wrap h2{
+ font-size: 20px;
+ margin-bottom: 15px;
+}
