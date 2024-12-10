@@ -26,6 +26,10 @@ const Header = () => {
         {
             name:"Post",
             path:"/post"
+        },
+        {
+            name:"Books",
+            path:"/books"
         }
     ]
 
@@ -33,7 +37,7 @@ const Header = () => {
     return(
         <>
             <header>
-                    <div class="container">
+                    <div className="container">
                             <Logo logo={myLogo}/>
                             <nav>
                                <MenuList menu={menu}/>
